@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'io.reactivex:rxjava:1.1.6'
+    compile 'org.projectlombok:lombok:1.16.12'
+    compile 'io.reactivex:rxjava-joins:0.22.0'
+    compile 'io.reactivex:rxjava-computation-expressions:0.21.0'
+    compile 'io.reactivex:rxjava-async-util:0.21.0'
+    compile 'io.reactivex:rxjava-math:1.0.0'
+    compile 'io.reactivex:rxjava-string:1.1.1'
+    compile 'io.reactivex:rxjava-reactive-streams:1.2.1'
+    compile 'io.reactivex:rxjava-debug:1.0.3'
+    compile 'io.reactivex:rxjava-guava:1.0.3'
+    compile 'io.reactivex:rxjava-file-utils:0.1.4'
+}
